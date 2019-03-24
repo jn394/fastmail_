@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Photos</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>Photos</h1>
+<div id="search">
+    <input id="mySearch" type="search" placeholder="Find an image…">
+</div>
+<p id="images">Loading…</p>
+
+<script id="data" type="application/json">
+{
+    "imagePath": "images/",
+    "images": [
+        {
+            "name": "norway-1.jpg",
+            "width": 1024,
+            "height": 683,
+            "tags": [ "pink", "purple" ]
+        }, {
+            "name": "norway-2.jpg",
+            "width": 1024,
+            "height": 683,
+            "tags": [ "green", "brown", "yellow", "red", "grey" ]
+        }, {
+            "name": "norway-3.jpg",
+            "width": 1024,
+            "height": 683,
+            "tags": [ "red", "brown", "white", "blue", "green", "yellow", "grey" ]
+        }
+    ]
+}
+</script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
